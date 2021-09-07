@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+main#mypage{font-family:'NanumGothic','Segoe UI', Roboto, Oxygen, sans-serif ;background: #fff; color:#333; font-size:16px; }
+
+#mypage{}
+.mypage_wrap{
+  width:1440px;
+  margin:60px auto;
+  text-align:center;
+}
+.mypage_wrap h2{
+  font-size:30px;
+  margin:60px 0;
+  font-weight: normal;
+  font-family: 'Noto Serif KR', serif;
+}
+.name {
+  margin:20px 0;
+}
+.name p{
+  font-size: 20px;
+  margin:20px 0;
+}
+.name p span{
+  font-weight: bold;
+}
+.name p.level{
+  font-size:16px;
+  color:#73645D; 
+}
+
+.coupon{
+  width:760px;
+  margin:auto;
+}
+.coupon_wrap{
+  width:100%;
+  height:auto;
+  background:#D7D1D1;
+}
+.coupon_wrap ul{
+  padding:30px 0;
+}
+.coupon_wrap li{
+  display: inline-block;
+  width:24%;
+}
+.coupon_wrap a{
+  display: block;
+  width:100%;
+  height:auto;
+  border:1px solid red;
+  font-size:10px;
+  color:#333;
+}
+.coupon_wrap a.coupon:before{
+  display:block;
+  content:'';
+  margin:0 auto -16px;
+  width:90px; height:90px;
+  background:url('../img/icon/coupon_icon.svg') no-repeat 100% 100%;
+}
+.coupon_wrap a.coin:before{
+  display:block;
+  content:'';
+  margin:0 auto -16px;
+  width:90px; height:90px;
+  background:url('../img/icon/coins_icon.svg') no-repeat 100% 100%;}
+.coupon_wrap a.cart:before{
+  display:block;
+  content:'';
+  margin:17px auto 4px;
+  width:56px; height:56px;
+  background:url('../img/icon/bag_icon.svg') no-repeat 100% 100%;
+}
+.coupon_wrap a.heart:before{
+  display:block;
+  content:'';
+  margin:0 auto -16px;
+  width:90px; height:90px;
+  background:url('../img/icon/basic_heart_icon.svg') no-repeat 100% 100%;
+}
+.coupon_wrap a span{
+  display: block;
+  font-size:34px;
+  font-weight:bold;
+  margin: 50px auto;
+  color:#73645D;
+}
+
+
+.order{}
+.oder_wrap{
+  width:760px;
+  margin:80px auto;
+
+}
+
+.oder_wrap ul{}
+.oder_wrap li{
+  display:block;
+  border-bottom:1px solid #999;
+  text-align: left;
+  border:1px solid red;
+  padding: 20px 0;
+}
+.recent{
+
+}
+.oder_wrap a{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1440px){
+  .login_wrap{
+    width:100%;
+  }
+}
+
+@media (max-width:450px){
+  .login_wrap{
+    max-width:450px;
+  }
+}

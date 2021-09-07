@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+#login{}
+.login_wrap{
+  width:1440px;
+  height:800px;
+  margin:auto;
+  text-align: center;
+}
+.login_wrap h2{
+  position:relative;
+  margin:80px auto 60px;
+  font-size:30px;
+}
+.login_wrap h2:after{
+  display: block;
+  content:'';
+  width:60%; height:1px;
+  position:absolute;
+  top:80px; left:20%;
+  background:#ddd;
+}
+
+.login_wrap .box_wrap{}
+  .box_wrap .id{
+    position:relative;
+    width:20%;
+    border:1px solid red;
+  }
+  .box_wrap .id input{
+    all:unset;
+    width:20%;
+    font-size:16px;
+    height: 30px;
+    background:#f9f9f9;
+  }
+  .box_wrap .id p{
+    position:absolute;
+    top:0;
+    left:0;
+  }
+
+  .box_wrap .pw{}
+  .box_wrap .pw p{}

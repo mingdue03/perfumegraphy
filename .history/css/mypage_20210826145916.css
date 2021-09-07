@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#mypage{}
+.mypage_wrap{
+  width:1440px;
+}
+.mypage_wrap h2{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1440px){
+  .login_wrap{
+    width:100%;
+  }
+}
+
+@media (max-width:450px){
+  .login_wrap{
+    max-width:450px;
+  }
+}

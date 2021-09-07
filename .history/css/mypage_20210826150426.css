@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+#mypage{}
+.mypage_wrap{
+  width:1440px;
+  margin:30px auto;
+  text-align:center;
+}
+.mypage_wrap h2{
+  font-size:30px;
+  margin:10px 0;
+}
+.name {
+}
+.name p{
+  font-size: 20px;
+}
+.name p{
+  font-size: bold;
+}
+.name p.lever{
+  font-size:16px;
+  color:#73645D 
+}
+
+
+
+.coupon article{
+  width:100%;
+  height:400px;
+  background:#D7D1D1;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1440px){
+  .login_wrap{
+    width:100%;
+  }
+}
+
+@media (max-width:450px){
+  .login_wrap{
+    max-width:450px;
+  }
+}
