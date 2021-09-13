@@ -723,9 +723,7 @@ footer .pc_hidden{display:none;}
 
 
 @media (max-width:450px){
-  #contents{
-    overflow: hidden;
-  }
+
   #body_wrap{
     width:100%;
   }
@@ -791,18 +789,6 @@ footer .pc_hidden{display:none;}
   .month_product_wrap {
     width:200px;
     height:200px;
-  }
-  .month_prod_info{
-    width:100%
-  }
-  .month_prod_info  h4{
-    font-size:12px;
-  }
-  .month_prod_info span{
-    font-size:10px;
-  }
-  .month_prod_info p{
-    font-size:8px;
   }
   /* NEW */  
   .new{width: 100%;}

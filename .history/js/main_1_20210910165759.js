@@ -200,10 +200,10 @@ $(document).ready( function(){
       });
       $('#body_wrap').css('width','100%');
       //mainslides
-      $('.visual').css('width','100%','height','680px');
-      $('#slides').attr('style','overflow: hidden; display: block; width : 100% ; height : 680px');
-      $('.slidesjs-container').attr('style','overflow: hidden; position: relative; width : 100%; height : 680px');
-      $('.slidesjs-control').attr('style','position: relative; left: 0px; width : 100%; height : 680px');
+      $('.visual').css('width','100%','height','700px');
+      $('#slides').attr('style','overflow: hidden; display: block; width : 100% ; height : 700px');
+      $('.slidesjs-container').attr('style','overflow: hidden; position: relative; width : 100%; height : 700px');
+      $('.slidesjs-control').attr('style','position: relative; left: 0px; width : 100%; height : 700px');
       $('.slidesjs-navigation').hide();
 
       //MONTH SLIDES

@@ -104,7 +104,6 @@ main#mypage{font-family:'NanumGothic','Segoe UI', Roboto, Oxygen, sans-serif ;ba
   padding: 20px 0;
 }
 .oder_wrap a{
-  padding-left:30px;
   color:#333;
   font-weight: bold;
 }
@@ -171,14 +170,6 @@ main#mypage{font-family:'NanumGothic','Segoe UI', Roboto, Oxygen, sans-serif ;ba
 
 
 @media (max-width:1440px){
-  .mypage_wrap{
-    width:100%;
-  }
-  .coupons, .oder_wrap{
-    width:70%;
-  }
-}
-@media (max-width:768px){
   .mypage_wrap, .coupons, .oder_wrap{
     width:100%;
   }
@@ -189,40 +180,30 @@ main#mypage{font-family:'NanumGothic','Segoe UI', Roboto, Oxygen, sans-serif ;ba
     width:100%;
   }
   .coupon_wrap a.coupon:before{
+    display:block;
+    content:'';
     margin:0 auto -10px;
     width:70px; height:70px;
-    background-position:center center;
-    background-size:70%
+    background:url('../img/icon/coupon_icon.svg') no-repeat 100% 100%;
   }
   .coupon_wrap a.coin:before{
+    display:block;
+    content:'';
     margin:0 auto -10px;
     width:70px; height:70px;
-    background-position:center center;
-    background-size:70%
-  }
+    background:url('../img/icon/coins_icon.svg') no-repeat 100% 100%;}
   .coupon_wrap a.cart:before{
+    display:block;
+    content:'';
     margin:17px auto 6px;
     width:40px; height:40px;
-    background-position:center center;
-    background-size:70%;
+    background:url('../img/icon/bag_icon.svg') no-repeat 100% 100%;
   }
   .coupon_wrap a.heart:before{
+    display:block;
+    content:'';
     margin:0 auto -10px;
     width:70px; height:70px;
-    background-position:center center;
-    background-size:70%
-  }
-  .coupon_wrap a span{
-    display: block;
-    font-size:20px;
-    font-weight:bold;
-    margin: 40px 0 20px; 
-    background-position:center center;
-    color:#73645D;
-  }
-  .oder_wrap a{
-    padding-left:16px;
-    color:#333;
-    font-weight: bold;
+    background:url('../img/icon/basic_heart_icon.svg') no-repeat 100% 100%;
   }
 }

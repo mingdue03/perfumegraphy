@@ -723,9 +723,7 @@ footer .pc_hidden{display:none;}
 
 
 @media (max-width:450px){
-  #contents{
-    overflow: hidden;
-  }
+
   #body_wrap{
     width:100%;
   }
@@ -803,6 +801,7 @@ footer .pc_hidden{display:none;}
   }
   .month_prod_info p{
     font-size:8px;
+    padding:0 5px;
   }
   /* NEW */  
   .new{width: 100%;}

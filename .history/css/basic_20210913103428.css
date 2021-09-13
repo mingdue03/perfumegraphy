@@ -723,9 +723,9 @@ footer .pc_hidden{display:none;}
 
 
 @media (max-width:450px){
-  #contents{
-    overflow: hidden;
-  }
+#contents{
+  overflow: hidden;
+}
   #body_wrap{
     width:100%;
   }

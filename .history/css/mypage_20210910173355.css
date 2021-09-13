@@ -220,9 +220,4 @@ main#mypage{font-family:'NanumGothic','Segoe UI', Roboto, Oxygen, sans-serif ;ba
     background-position:center center;
     color:#73645D;
   }
-  .oder_wrap a{
-    padding-left:16px;
-    color:#333;
-    font-weight: bold;
-  }
 }
